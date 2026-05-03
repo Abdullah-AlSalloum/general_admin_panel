@@ -14,6 +14,10 @@ declare module "next-auth/jwt" {
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   ...authConfig,
+  secret:
+    process.env.AUTH_SECRET ||
+    process.env.NEXTAUTH_SECRET ||
+    'dev-admin-panel-secret-change-in-production-2026',
   cookies: {
     sessionToken: {
       name: 'admin-session-token',

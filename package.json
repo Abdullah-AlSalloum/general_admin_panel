@@ -1,0 +1,34 @@
+{
+  "name": "general-admin-panel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^7.3.4",
+    "@mui/material-nextjs": "^7.3.4",
+    "apexcharts": "^4.7.0",
+    "jsvectormap": "^1.6.0",
+    "next": "^16.0.1",
+    "next-auth": "^5.0.0-beta.29",
+    "next-intl": "^4.4.0",
+    "react": "^19.2.0",
+    "react-apexcharts": "^1.7.0",
+    "react-dom": "^19.2.0",
+    "stylis-plugin-rtl": "^2.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.2.1",
+    "@types/react-dom": "^19.2.1",
+    "typescript": "^5.9.2"
+  }
+}
